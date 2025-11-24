@@ -10,7 +10,6 @@ public class PlayerTagAuthoring : MonoBehaviour
         public override void Bake(PlayerTagAuthoring authoring)
         {
             var entity = GetEntity(TransformUsageFlags.Dynamic);
-
             AddComponent<PlayerTag>(entity);
         }
     }
